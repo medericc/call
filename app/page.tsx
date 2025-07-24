@@ -22,7 +22,9 @@ const links = [
  
    { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+      // { title: "Site d'Inès", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+     
+     { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
   
    { title: "StatsCenter de Carla", url: "https://www.carla-leite-fan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
@@ -49,10 +51,10 @@ const [modalOpen, setModalOpen] = useState(false);
   const filteredLinks = links.filter(link => link.category === selectedCategory);
 
   return (
-    <main className="min-h-screen flex flex-col justify-between items-center bg-red-800 px-6 pt-6 text-white">
+    <main className="min-h-screen flex flex-col justify-between items-center bg-[#ad2424] px-6 pt-6 text-neutral-100">
       {/* Header */}
       <div className="w-full max-w-md mb-6 mt-20">
-        <h1 className="text-3xl font-bold text-center mb-6">App Carla & Co</h1>
+        <h1 className="text-3xl font-bold text-center mb-6 text-neutral-100">App Carla & Co</h1>
 
         {/* Menu déroulant */}
         <div className=" mt-8 mb-4">
@@ -80,7 +82,7 @@ const [modalOpen, setModalOpen] = useState(false);
       <button
         key={i}
         onClick={() => setModalOpen(true)}
-        className="flex items-center bg-[#ba1f1f]/90 hover:bg-red-600 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm w-full"
+        className="flex items-center bg-[#c22525] hover:bg-red-700 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm w-full"
       >
         {link.icon}
         {link.title}
@@ -91,7 +93,7 @@ const [modalOpen, setModalOpen] = useState(false);
         href={link.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center bg-[#ba1f1f]/90 hover:bg-red-600 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm"
+        className="flex items-center bg-[#c22525] hover:bg-red-700 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm"
       >
         {link.icon}
         {link.title}
@@ -103,7 +105,7 @@ const [modalOpen, setModalOpen] = useState(false);
 
 
       {/* Footer */}
-      <footer className="w-screen bg-gradient-to-b from-red-800 to-red-900 py-6 mt-10">
+      <footer className="w-screen bg-gradient-to-b from-[#ad2424] to-[#a11d1d] py-6 mt-10">
         <p className="text-sm text-white text-opacity-70 text-center mx-auto w-full max-w-none">
           Fait avec{" "}
          <span className="text-2xl mr-1 ml-1 inline-block relative top-1 text-neutral-800 heartbeat">
