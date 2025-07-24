@@ -61,9 +61,11 @@ export default function HomePage() {
       {/* Footer */}
     <footer className="w-screen bg-gradient-to-b from-purple-800 to-purple-900 py-6">
 
-  <p className="text-sm text-white text-opacity-70 text-center mx-auto w-full max-w-none">
-    Fait avec <span className="text-white drop-shadow-[0_0_4px_rgba(255,255,255,0.7)]">❤️</span> par <strong>Jade et Léna Fan Page</strong>
-  </p>
+<p className="text-sm text-white text-opacity-70 text-center mx-auto w-full max-w-none">
+  Fait avec  <span className="text-2xl -mt-0.5 mr-1 ml-1 inline-block text-white drop-shadow-[0_0_4px_rgba(255,255,255,0.7)]">&hearts;</span>  par <strong>Jade et Léna Fan Page</strong>
+</p>
+
+
 </footer>
 
     </main>
