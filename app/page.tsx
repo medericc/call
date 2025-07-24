@@ -121,7 +121,7 @@ const [modalOpen, setModalOpen] = useState(false);
     <DialogHeader>
       <DialogTitle className="text-red-700">Patiente...</DialogTitle>
     </DialogHeader>
-    <p>Cette application n&lsquo;est pas encore disponible.</p>
+    <p>Pas encore disponible.</p>
   </DialogContent>
 </Dialog>
 
