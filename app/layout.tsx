@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Léna et Jade App",
-  description: "Les actualités de la bigourdanne et de la béarnaise.",
+  title: "Carla and Co",
+  description: "Les Applications Web Basketball de Carla et ses amies",
 };
 
 export default function RootLayout({
