@@ -5,6 +5,7 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@
 import { Calendar, Video, Globe, LinkIcon, BarChart } from "lucide-react";
 import { FaYoutube, FaTiktok, FaInstagram } from "react-icons/fa";
 const categories = ["Site", "StatsCenter", "LiveStats", "Instagram", "TikTok", "YouTube"];
+// const categories = ["Site", "Schedule", "StatsCenter", "LiveStats", "Instagram", "TikTok", "YouTube"];
 
 const links = [
   // {
@@ -12,11 +13,7 @@ const links = [
   //   url: "https://monsite.com/calendrier",
   //   icon: <Calendar className="w-5 h-5 mr-4" />,
   // },
-  // {
-  //   title: "Dernière vidéo YouTube",
-  //   url: "https://youtube.com/ma-video",
-  //   icon: <Video className="w-5 h-5 mr-4" />,
-  // },
+ 
    { title: "Site de Carla", url: "https://monsite.com", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   { title: "StatsCenter de Carla", url: "https://monsite.com", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Carla", url: "https://monsite.com", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
