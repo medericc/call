@@ -1,6 +1,12 @@
 'use client'
 import { useState } from "react";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 import { Calendar, Video, Globe, LinkIcon, BarChart } from "lucide-react";
 import { FaYoutube, FaTiktok, FaInstagram } from "react-icons/fa";
@@ -15,7 +21,11 @@ const links = [
   // },
  
    { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-  { title: "StatsCenter de Carla", url: "https://www.carla-leite-fan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
+     { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+  
+  
+   { title: "StatsCenter de Carla", url: "https://www.carla-leite-fan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Carla", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
   { title: "StatsCenter de Lucile", url: "https://www.carla-leite-fan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
@@ -34,6 +44,7 @@ const links = [
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("Site");
+const [modalOpen, setModalOpen] = useState(false);
 
   const filteredLinks = links.filter(link => link.category === selectedCategory);
 
@@ -61,20 +72,34 @@ export default function HomePage() {
       </div>
 
       {/* Liste des liens */}
-     <div className="w-full max-w-md space-y-4 flex-grow">
-  {filteredLinks.map((link, i) => (
-    <a
-      key={i}
-      href={link.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center bg-[#ba1f1f]/90 hover:bg-red-600 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm"
-    >
-      {link.icon}
-      {link.title}
-    </a>
-  ))}
+   <div className="w-full max-w-md space-y-4 flex-grow">
+  {filteredLinks.map((link, i) => {
+    const isDisabled = !link.url;
+
+    return isDisabled ? (
+      <button
+        key={i}
+        onClick={() => setModalOpen(true)}
+        className="flex items-center bg-[#ba1f1f]/90 hover:bg-red-600 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm w-full"
+      >
+        {link.icon}
+        {link.title}
+      </button>
+    ) : (
+      <a
+        key={i}
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center bg-[#ba1f1f]/90 hover:bg-red-600 transition rounded-xl px-4 py-3 text-lg font-medium shadow-sm"
+      >
+        {link.icon}
+        {link.title}
+      </a>
+    );
+  })}
 </div>
+
 
 
       {/* Footer */}
@@ -89,6 +114,15 @@ export default function HomePage() {
           par <strong>Carla Fan Account</strong>
         </p>
       </footer>
+      <Dialog open={modalOpen} onOpenChange={setModalOpen}>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle className="text-red-700">Patiente...</DialogTitle>
+    </DialogHeader>
+    <p>Cette application n&lsquo;est pas encore disponible.</p>
+  </DialogContent>
+</Dialog>
+
     </main>
   );
 }
