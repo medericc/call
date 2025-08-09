@@ -22,7 +22,7 @@ const links = [
  
    { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-      { title: "Site d'Inès", url: "https://www.ines-debroise.vercel.app/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+      { title: "Site d'Inès", url: "https://ines-debroise.vercel.app/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      
      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
