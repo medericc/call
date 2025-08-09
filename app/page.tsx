@@ -22,7 +22,7 @@ const links = [
  
    { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-      // { title: "Site d'Inès", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+      { title: "Site d'Inès", url: "https://www.ines-debroise.vercel.app/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      
      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
@@ -30,6 +30,7 @@ const links = [
    { title: "StatsCenter de Carla", url: "https://www.carla-leite-fan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Carla", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
   { title: "StatsCenter de Lucile", url: "https://www.carla-leite-fan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
+    { title: "StatsCenter d'Inès", url: "https://www.carla-leite-fan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
   { title: "Instagram d'Inès", url: "https://www.instagram.com/ines_debroise_fan/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Tiktok d'Inès", url: "https://www.tiktok.com/@ines_debroise_fan", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
