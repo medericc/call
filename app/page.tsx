@@ -24,7 +24,8 @@ const links = [
    { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
       { title: "Site d'Inès", url: "https://ines-debroise.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-     { title: "Ranking LFB & LF2", url: "https://www.lfbfantasy.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+     
+      { title: "Ranking LFB & LF2", url: "https://www.lfbfantasy.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
   
@@ -33,17 +34,27 @@ const links = [
   { title: "StatsCenter de Lucile", url: "https://www.carla-leite-fan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
     { title: "StatsCenter d'Inès", url: "https://www.carla-leite-fan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
-    { title: "Calendrier d'Inès", url: "https://ines-agenda.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
+    { title: "LiveStats de Léna", url: "https://lenastats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
+   { title: "LiveStats de Louann", url: "https://lou-livestats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
+  
+  { title: "Calendrier d'Inès", url: "https://ines-agenda.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
+  { title: "Calendrier de Jade", url: "https://jade-application.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
+  { title: "Calendrier de Louann", url: "https://schedule-lou.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
  
   { title: "Instagram d'Inès", url: "https://www.instagram.com/ines_debroise_fan/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Tiktok d'Inès", url: "https://www.tiktok.com/@ines_debroise_fan", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Youtube de Inès & Carla", url: "https://www.youtube.com/channel/UCivgGgfOz1Rn9DYXvN5jFkA", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
   { title: "Youtube de Maëlys", url: "https://www.youtube.com/@fan_maefau", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
   { title: "Youtube de Lucile", url: "https://www.youtube.com/channel/UC-7WPErAKZnjCOtbY8vWbUQ", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
+  { title: "Youtube de Léna", url: "https://www.youtube.com/@mona_lisa_bk", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
+ 
   { title: "Tiktok de Carla", url: "https://www.tiktok.com/@fan_carlaleite", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Tiktok de Lucile", url: "https://www.tiktok.com/@fan_lucilej", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
+  { title: "Tiktok de Léna", url: "https://www.tiktok.com/@lena_jade_backcourt", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
+ 
   { title: "Instagram de Carla", url: "https://www.instagram.com/fan_carlaleite/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Instagram de Lucile", url: "https://www.instagram.com/fan_lucilej/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
+ { title: "Instagram de léna", url: "https://www.instagram.com/lena_jade_backcourt/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
 
  
 ];
