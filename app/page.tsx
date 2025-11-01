@@ -10,7 +10,8 @@ import {
 
 import { Calendar, Video, Globe, LinkIcon, BarChart } from "lucide-react";
 import { FaYoutube, FaTiktok, FaInstagram } from "react-icons/fa";
-const categories = ["Site", "StatsCenter", "LiveStats", "Instagram", "TikTok", "YouTube"];
+const categories = ["Site", "Schedule", "StatsCenter", "LiveStats",  "Instagram", "TikTok", "YouTube"];
+
 // const categories = ["Site", "Schedule", "StatsCenter", "LiveStats", "Instagram", "TikTok", "YouTube"];
 
 const links = [
@@ -32,6 +33,8 @@ const links = [
   { title: "StatsCenter de Lucile", url: "https://www.carla-leite-fan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
     { title: "StatsCenter d'Inès", url: "https://www.carla-leite-fan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
+    { title: "Calendrier d'Inès", url: "https://ines-agenda.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
+ 
   { title: "Instagram d'Inès", url: "https://www.instagram.com/ines_debroise_fan/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Tiktok d'Inès", url: "https://www.tiktok.com/@ines_debroise_fan", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Youtube de Inès & Carla", url: "https://www.youtube.com/channel/UCivgGgfOz1Rn9DYXvN5jFkA", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
