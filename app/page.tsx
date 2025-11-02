@@ -51,10 +51,12 @@ const links = [
   { title: "Tiktok de Carla", url: "https://www.tiktok.com/@fan_carlaleite", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Tiktok de Lucile", url: "https://www.tiktok.com/@fan_lucilej", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Tiktok de Léna", url: "https://www.tiktok.com/@lena_jade_backcourt", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
+ { title: "Tiktok de Louann", url: "https://www.tiktok.com/@louann_rice_fan", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
  
   { title: "Instagram de Carla", url: "https://www.instagram.com/fan_carlaleite/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Instagram de Lucile", url: "https://www.instagram.com/fan_lucilej/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
- { title: "Instagram de léna", url: "https://www.instagram.com/lena_jade_backcourt/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
+ { title: "Instagram de Léna", url: "https://www.instagram.com/lena_jade_backcourt/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
+{ title: "Instagram de Louann", url: "https://www.instagram.com/louann_rice_fan/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
 
  
 ];
