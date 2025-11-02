@@ -46,16 +46,16 @@ const links = [
   { title: "Youtube de Inès & Carla", url: "https://www.youtube.com/channel/UCivgGgfOz1Rn9DYXvN5jFkA", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
   { title: "Youtube de Maëlys", url: "https://www.youtube.com/@fan_maefau", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
   { title: "Youtube de Lucile", url: "https://www.youtube.com/channel/UC-7WPErAKZnjCOtbY8vWbUQ", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
-  { title: "Youtube de Léna", url: "https://www.youtube.com/@mona_lisa_bk", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
+  { title: "Youtube de Léna & Jade", url: "https://www.youtube.com/@mona_lisa_bk", icon: <FaYoutube className="w-5 h-5 mr-4" />, category: "YouTube" },
  
   { title: "Tiktok de Carla", url: "https://www.tiktok.com/@fan_carlaleite", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
   { title: "Tiktok de Lucile", url: "https://www.tiktok.com/@fan_lucilej", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
-  { title: "Tiktok de Léna", url: "https://www.tiktok.com/@lena_jade_backcourt", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
+  { title: "Tiktok de Léna & Jade", url: "https://www.tiktok.com/@lena_jade_backcourt", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
  { title: "Tiktok de Louann", url: "https://www.tiktok.com/@louann_rice_fan", icon: <FaTiktok className="w-5 h-5 mr-4" />, category: "TikTok" },
  
   { title: "Instagram de Carla", url: "https://www.instagram.com/fan_carlaleite/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
   { title: "Instagram de Lucile", url: "https://www.instagram.com/fan_lucilej/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
- { title: "Instagram de Léna", url: "https://www.instagram.com/lena_jade_backcourt/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
+ { title: "Instagram de Léna & Jade", url: "https://www.instagram.com/lena_jade_backcourt/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
 { title: "Instagram de Louann", url: "https://www.instagram.com/louann_rice_fan/", icon: <FaInstagram className="w-5 h-5 mr-4" />, category: "Instagram" },
 
  
