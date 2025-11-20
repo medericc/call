@@ -21,7 +21,7 @@ const links = [
   //   icon: <Calendar className="w-5 h-5 mr-4" />,
   // },
  
-   { title: "Site de Carla", url: "https://www.carla-leite-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+   { title: "Site de Carla", url: "https://www.carlaleitefan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
       { title: "Site d'Inès", url: "https://ines-debroise.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      
@@ -29,10 +29,10 @@ const links = [
      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
   
-   { title: "StatsCenter de Carla", url: "https://www.carla-leite-fan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
+   { title: "StatsCenter de Carla", url: "https://www.carlaleitefan.com/directory", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Carla", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
-  { title: "StatsCenter de Lucile", url: "https://www.carla-leite-fan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
-    { title: "StatsCenter d'Inès", url: "https://www.carla-leite-fan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
+  { title: "StatsCenter de Lucile", url: "https://www.carlaleitefan.com/lucile", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
+    { title: "StatsCenter d'Inès", url: "https://www.carlaleitefan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
     { title: "LiveStats de Léna", url: "https://lenastats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
    { title: "LiveStats de Louann", url: "https://lou-livestats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
