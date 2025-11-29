@@ -22,9 +22,10 @@ const links = [
   // },
  
    { title: "Site de Carla", url: "https://www.carlaleitefan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-     { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
       { title: "Site d'Inès", url: "https://ines-debroise.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
-     
+    
+    //  { title: "Site de Maëlys", url: "https://www.maelys-faurat-fan.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
+    
       { title: "Ranking LFB & LF2", url: "https://www.lfbfantasy.com/", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
      { title: "Fantasy League", url: "", icon: <Globe className="w-5 h-5 mr-4" />, category: "Site" },
   
@@ -35,7 +36,9 @@ const links = [
     { title: "StatsCenter d'Inès", url: "https://www.carlaleitefan.com/ines", icon: <BarChart className="w-5 h-5 mr-4" />, category: "StatsCenter" },
   { title: "LiveStats de Lucile", url: "https://carla-lucile.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
     { title: "LiveStats de Léna", url: "https://lenastats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
-   { title: "LiveStats de Louann", url: "https://lou-livestats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
+   { title: "LiveStats de Jade", url: "https://jade-livestats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
+  
+    { title: "LiveStats de Louann", url: "https://lou-livestats.vercel.app/", icon: <BarChart className="w-5 h-5 mr-4" />, category: "LiveStats" },
   
   { title: "Calendrier d'Inès", url: "https://ines-agenda.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
   { title: "Calendrier de Jade", url: "https://jade-application.vercel.app/", icon: <Calendar className="w-5 h-5 mr-4" />, category: "Schedule" },
